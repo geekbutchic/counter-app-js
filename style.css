@@ -1,0 +1,67 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+  }
+  #outerBox {
+    border: 4px solid black;
+    height: 800px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #innerBox {
+    border: 2px solid black;
+    height: 775px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #logoBox {
+    display: flex;
+    flex-direction: row;
+    width: 355px;
+    height: 45px;
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logoWords {
+    margin: 15px;
+  }
+  
+  #countingArea {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    width: 355px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .countButton {
+    height: 30px;
+  }
+  
+  .checked {
+    color: red;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  .fa {
+    border-radius: 30%;
+    border: solid black;
+    padding: 10px;
+  }
